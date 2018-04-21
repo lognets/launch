@@ -205,7 +205,25 @@ $(window).on("load",function (){
         }
     });
 
-    $('#color-changer').on('click',function(){
-        $("body").toggleClass("red-theme");
+    $('#blueTheme').on('click',function(){
+        $("body").css({"color": "#2196F3"});
+                 
     });
+    $('#greenTheme').on('click',function(){
+        $("body").css({"color": "#689f38"});
+    });
+    $('#orangeTheme').on('click',function(){
+        $("body").css({"color": "#ef6c00"});
+    });
+    $('#pinkTheme').on('click',function(){
+        $("body").css({"color": "#ff4181"});
+    });
+    $('#purpleTheme').on('click',function(){
+        $("body").css({"color": "#9C27B0"});
+    });
+    $('#redTheme').on('click',function(){
+        $("body").css({"color": "#F44336"});
+    });
+
+
 });
